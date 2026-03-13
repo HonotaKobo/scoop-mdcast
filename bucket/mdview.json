@@ -10,10 +10,13 @@
         }
     },
     "installer": {
-        "script": "Start-Process \"$dir\\setup.exe\" -ArgumentList '/S' -Wait"
+        "script": [
+            "Start-Process \"$dir\\setup.exe\" -ArgumentList '/S' -Wait",
+            "Copy-Item \"$env:LOCALAPPDATA\\mdview\\mdview.exe\" \"$dir\\mdview.exe\""
+        ]
     },
     "uninstaller": {
         "script": "Start-Process \"$dir\\setup.exe\" -ArgumentList '/UNINSTALL','/S' -Wait"
     },
-    "env_add_path": "$env:LOCALAPPDATA\\mdview"
+    "bin": "mdview.exe"
 }
