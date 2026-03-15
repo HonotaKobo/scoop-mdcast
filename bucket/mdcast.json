@@ -1,12 +1,12 @@
 {
-    "version": "0.2.7",
+    "version": "0.2.8",
     "description": "Markdown viewer for the AI age",
     "homepage": "https://github.com/HonotaKobo/mdcast",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HonotaKobo/mdcast/releases/download/v0.2.7/mdcast_0.2.7_x64-setup.exe#/setup.exe",
-            "hash": "1b2c73998b81b5122ebcdb0b78735f18b0409e23abe01f7eaa9f3b0eecc3e3d9"
+            "url": "https://github.com/HonotaKobo/mdcast/releases/download/v0.2.8/mdcast_0.2.8_x64-setup.exe#/setup.exe",
+            "hash": "399c5241eda81ca4f195733eea1a6fcd6a5714e08d8f49a7b626019d2fd4a30f"
         }
     },
     "installer": {
